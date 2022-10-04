@@ -1,0 +1,13 @@
+.ship-container {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+.loading{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 10px;
+}

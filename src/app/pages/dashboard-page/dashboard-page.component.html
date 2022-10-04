@@ -1,0 +1,11 @@
+<h3 *ngIf="isLoading" class="loading">Loading....</h3>
+
+<div class="ship-container">
+  <!--  <app-ship *ngFor="let ship of shipsService.ships"-->
+  <!--            [ship]="ship"-->
+  <!--  ></app-ship>-->
+  <app-ships-items *ngFor="let ship of ships;let i = index" [ship]="ship" [index]="i">
+  </app-ships-items>
+
+
+</div>
